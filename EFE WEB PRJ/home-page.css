@@ -1,0 +1,539 @@
+body
+{
+    background-color:chocolate;
+    margin: 0;
+    padding: 0 ;
+    overflow: hidden;
+}
+.head-part
+{
+    background-color: black;
+    color: aliceblue;
+    padding: 5px;
+    font-family: 'Oswald', sans-serif;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.75);
+    
+}
+h1
+{
+    text-align: center;
+}
+.logo-header
+{
+    top: 10px;
+    left: 15px;
+    position: absolute;
+}
+.social-logo {
+    top: 30px;
+    left: 100px;
+    position: absolute;
+    float: left;
+}
+
+.img2
+{
+    margin: 0px 10px 0px 10px;
+}
+.img1:hover
+{
+   
+    animation-name: ornek;
+    animation-duration: 3s;
+}
+.img2:hover
+{   
+    animation-name: ornek;
+    animation-duration: 3s;
+}
+.img3:hover
+{
+    animation-name: ornek;
+    animation-duration: 3s;
+}
+@keyframes ornek
+{
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+.nav-bar
+{
+    top: 30px;
+    right: 90px;
+    position: absolute;
+    word-spacing:50px;
+}
+.nav-bar a {
+    text-decoration: none; 
+    color: white;
+    position: relative;
+}
+.nav-bar a::before
+{
+    content: "";
+    position: absolute;
+    bottom: -2px; 
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: white; 
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.2s ease-out;
+}
+.nav-bar a:hover:before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+.home-page
+{ 
+    margin-top: 50px;
+    background-color: gray;
+    width: 500px;
+    height: 500px;
+    border-radius: 50px;
+    margin-left: 70px;
+    float: left;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.75);
+    
+}
+.home-page a
+{
+    text-decoration: none; 
+    color: #fff;
+    position: relative; 
+}
+.bs-text:hover
+{
+    color: orange;
+    
+}
+.ft-text:hover
+{
+    color: black;
+    
+}
+.vb-text:hover
+{
+    color: yellow;
+    
+}
+.hb-text:hover
+{
+    color: aqua;
+}
+.archery-text:hover
+{
+    color: red;
+}
+.book-text:hover
+{
+    color:coral ;
+}
+.sport-text:hover
+{
+    color:limegreen;
+}
+.walk-text:hover
+{
+    color:grey;
+}
+.home-page-2
+{
+    margin-top: 50px;
+    background-color: gray;
+    width: 500px;
+    height: 500px;
+    border-radius: 50px;
+    float: left;
+    margin-left: 180px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center ;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.75);
+   
+    
+}
+.home-page-2 a{
+    text-decoration: none; 
+    color: white;
+    position: relative;
+}
+hr{
+    border-color: black;
+}
+P{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    margin-top: 100px;
+
+}
+.hakkimizda-syf
+{
+    margin-top: 50px;
+    background-color: gray;
+    width: 1200px;
+    height: 500px;
+    border-radius: 50px;
+    margin-left: 70px;
+    float: left;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.75);
+}
+.iletisim-syf
+{
+    margin-top: 50px;
+    background-color: gray;
+    width: 1200px;
+    height: 500px;
+    border-radius: 50px;
+    margin-left: 70px;
+    float: left;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.75);
+}
+#p-aciklama
+{
+    width:500px ;
+    margin-top: 150px;
+}
+.bs-page
+{
+    margin-top: 50px;
+    background-color: gray;
+    width: 1200px;
+    height: 500px;
+    border-radius: 50px;
+    margin-left: 70px;
+    float: left;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.75);
+}
+.left-section,
+    .right-section {
+      flex: 1;
+      padding: 5px;
+    }
+    
+    .vertical-line {
+      width: 2px;
+      background-color: black;
+    }
+.left-section h1
+{
+    color: orange;
+    
+}
+.right-section h1
+{
+    color: burlywood;
+    
+}
+.kutu
+{
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+    overflow: hidden;
+    background-image: url('bs-foto.jpg'); 
+    background-size: cover;
+    margin: auto;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.75);
+}
+.bs-yazi
+{
+    margin: auto;
+}
+.kutu2
+{
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+    overflow: hidden;
+    background-image: url('Basketbol-sahası-1024x611.jpg'); 
+    background-size: cover;
+    margin: auto;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.75);
+}
+.ft-page
+{
+    margin-top: 50px;
+    background-color: gray;
+    width: 1200px;
+    height: 500px;
+    border-radius: 50px;
+    margin-left: 70px;
+    float: left;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.75);
+}
+.ft-yazi
+{
+    margin: auto;
+}
+.kutu-ft
+{
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+    overflow: hidden;
+    background-image: url('futboltopfutbolcu-1475459.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.75);
+}
+.kutu2-ft
+{
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+    overflow: hidden;
+    background-image: url('wsi-imageoptim-2-coach-talking-to-young-soccer-team-before-the-matc-2022-02-02-03-59-12-utc-min-scaled.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.75);
+}
+.vb-page
+{
+    margin-top: 50px;
+    background-color: gray;
+    width: 1200px;
+    height: 500px;
+    border-radius: 50px;
+    margin-left: 70px;
+    float: left;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.75);
+}
+.vb-yazi
+{
+    margin: auto;
+}
+.kutu-vb
+{
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+    overflow: hidden;
+    background-image: url('wsi-imageoptim-1-cropped-hands-of-players-practicing-volleyball-2021-08-28-16-46-52-utc-min-scaled.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.75);
+}
+.kutu2-vb
+{
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+    overflow: hidden;
+    background-image: url('wsi-imageoptim-2-bag-with-balls-volleyball-lies-playing-hall-floor-background-players-min-scaled.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.75);
+}
+.ht-page
+{
+    margin-top: 50px;
+    background-color: gray;
+    width: 1200px;
+    height: 500px;
+    border-radius: 50px;
+    margin-left: 70px;
+    float: left;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.75);
+}
+.ht-yazi
+{
+    margin: auto;
+}
+.kutu-ht
+{
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+    overflow: hidden;
+    background-image: url('hentbol.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.75);
+}
+.kutu2-ht
+{
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+    overflow: hidden;
+    background-image: url('hentbol\ k.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.75);
+}
+.ok-page
+{
+    margin-top: 50px;
+    background-color: gray;
+    width: 1200px;
+    height: 500px;
+    border-radius: 50px;
+    margin-left: 70px;
+    float: left;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.75);
+}
+.ok-yazi
+{
+    margin: auto;
+}
+.kutu3r-ok
+{
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+    overflow: hidden;
+    background-image: url("1440x810_cmsv2_c46bce6c-f0e6-5036-91ca-898a0a7d902c-7804962.jpg"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.75);
+}
+.kutu3-ok
+{
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+    overflow: hidden;
+    background-image: url('ok.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.75);
+}
+.book-page
+{
+    width: 800px;
+    height: 500px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 10px;
+    background-color: gray;
+    border-radius: 10px;
+    overflow: auto;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.75);
+}
+.book-img {
+    width: 90px; 
+    height: 90px; 
+    border-radius: 50px;
+    overflow: hidden; 
+    background-image: url('book.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    margin: auto; 
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.75);
+}
+.fitness-img
+{
+    width: 90px; 
+    height: 90px; 
+    border-radius: 50px; 
+    overflow: hidden; 
+    background-image: url('kosu-ve-insan-evrimi-1-e1527773618620.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    margin: auto;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.75);
+}
+.book-text-foot
+{
+    margin: auto;
+}
+.image
+{
+    border-radius: 50px;
+    overflow: hidden;
+}
+.walking-img
+{
+    width: 90px; 
+    height: 90px; 
+    border-radius: 50px; 
+    overflow: hidden; 
+    background-image: url('her-gun-duzenli-yuruyus-yapmanin-faydalari.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    margin: auto;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.75);
+}
+.Running-img
+{
+    width: 90px; 
+    height: 90px; 
+    border-radius: 50px; 
+    overflow: hidden; 
+    background-image: url('kalori-kosu.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    margin: auto;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.75);
+}
+.Yoga-img
+{
+    width: 90px; 
+    height: 90px; 
+    border-radius: 50px; 
+    overflow: hidden; 
+    background-image: url('yoga.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    margin: auto;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.75);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
